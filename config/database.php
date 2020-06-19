@@ -1,11 +1,18 @@
 <?php
   class Database {
     // DB Params
+    /*
     private $host = 'localhost';
     private $db_name = 'db_iaitl';
     private $username = 'root';
     private $password = '';
+    */
+    private $host = 'https://remotemysql.com';
+    private $db_name = 'TJbC6Yte84';
+    private $username = 'TJbC6Yte84';
+    private $password = '8dEGffwvcZ';
     private $conn;
+
 
     // DB Connect
     public function connect() {
